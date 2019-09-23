@@ -8,6 +8,7 @@ ADD mysql /etc/services.d/mysql
 
 ADD php-fpm /etc/services.d/php-fpm
 ADD php.ini /etc/php7/php.ini
+ADD www.conf /etc/php7/php-fpm.d/www.conf
 
 ADD nginx-config /etc/cont-init.d/00-configure-nginx
 ADD wordpress.conf /etc/nginx/conf.d/wordpress.conf
