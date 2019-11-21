@@ -10,6 +10,6 @@ apk del --purge curl
 rm -rf /var/cache/apk/* /tmp/*
 
 #mysql php and nginx
-apk add --no-cache mariadb mariadb-client php7-fpm php7-mysqli php7-bcmath php7-curl php7-exif php7-fileinfo php7-imagick php7-gd nginx
+apk add --no-cache mariadb mariadb-client php7-fpm php7-mysqli php7-bcmath php7-curl php7-exif php7-fileinfo php7-imagick php7-gd php7-json nginx
 
 
